@@ -32,6 +32,23 @@ form {
     text-align: center;
 }
 
+button {
+    border-radius: 25px;
+    display: block;
+    background-color: #B9314F;
+    border-style: none;
+    font-family: monospace;
+    font-size: 25px;
+    height: 4em;
+    width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:active{
+    background-color: #7a2034;
+}
+
 .headimage{
     position: relative;
     height: 70px;
@@ -75,7 +92,7 @@ form {
     display: inline-block;
     border-style: none;
     border-radius: 20px;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     transform-origin: bottom;
